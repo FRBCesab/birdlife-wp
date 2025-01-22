@@ -1,0 +1,10 @@
+https://globil-panda.opendata.arcgis.com/datasets/terrestrial-ecoregions-world
+dl le 05-03-2021
+
+
+WWF Open Data
+Partagé par: WWF_Globil
+Source de données: www.globildata.org
+
+Terrestrial Ecoregions of the World (TEOW) is a biogeographic regionalization of the Earth's terrestrial biodiversity. Our biogeographic units are ecoregions, which are defined as relatively large units of land or water containing a distinct assemblage of natural communities sharing a large majority of species, dynamics, and environmental conditions. There are 867 terrestrial ecoregions, classified into 14 different biomes such as forests, grasslands, or deserts. Ecoregions represent the original distribution of distinct assemblages of species and communities. There are multiple uses for TEOW in our efforts to conserve biodiversity around the world. It provides: • a map of terrestrial biodiversity that gives enough detail to be useful in global and regional conservation priority-setting and planning efforts. • a logical biogeographic framework for the development of large-scale conservation strategies. • a map and descriptions for those working to increase biogeographic literacy and to illustrate conservation issues around the world; including a general description of each ecoregion, outstanding and distinctive biodiversity features, current status and types and severity of threats to the natural habitats. • a framework for a global species database useful in priority setting and ecological analyses. • a foundation for the Global 200--a representative prioritization of the world’s most distinctive biodiversity regions Citation: Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D'Amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51(11):933-938.
+
