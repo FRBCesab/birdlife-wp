@@ -18,6 +18,9 @@ birdlife-wp <img src="figures/readme/compendium-sticker.png" align="right" style
 =========================================================
 
 <!-- badges: start -->
+![Compendium](https://img.shields.io/badge/Project-Compendium-6666ff?logo=r)
+[![Static Badge](https://img.shields.io/badge/Repo_status-Active-blue)](https://www.repostatus.org/#active)
+![Lifecycle Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)
 [![License: GPL (>= 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->
 

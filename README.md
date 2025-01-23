@@ -1,10 +1,16 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # birdlife-wp <img src="figures/readme/compendium-sticker.png" align="right" style="float:right; height:120px;"/>
 
 <!-- badges: start -->
 
-[![License: GPL (&gt;=
+![Compendium](https://img.shields.io/badge/Project-Compendium-6666ff?logo=r)
+[![Static
+Badge](https://img.shields.io/badge/Repo_status-Active-blue)](https://www.repostatus.org/#active)
+![Lifecycle
+Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)
+[![License: GPL (\>=
 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->
 
@@ -32,28 +38,28 @@ FEATURES }}**
 
 This repository is structured as follow:
 
--   [`DESCRIPTION`](https://github.com/frbcesab/birdlife-wp/tree/main/DESCRIPTION):
-    contains project metadata (authors, date, dependencies, etc.)
+- [`DESCRIPTION`](https://github.com/frbcesab/birdlife-wp/tree/main/DESCRIPTION):
+  contains project metadata (authors, date, dependencies, etc.)
 
--   [`make.R`](https://github.com/frbcesab/birdlife-wp/tree/main/make.R):
-    main R script to run the entire project
+- [`make.R`](https://github.com/frbcesab/birdlife-wp/tree/main/make.R):
+  main R script to run the entire project
 
--   [`R/`](https://github.com/frbcesab/birdlife-wp/tree/main/R):
-    contains R functions developed especially for this project
+- [`R/`](https://github.com/frbcesab/birdlife-wp/tree/main/R): contains
+  R functions developed especially for this project
 
--   **{{ LIST ADDITIONAL FILES/FOLDER }}**
+- **{{ LIST ADDITIONAL FILES/FOLDER }}**
 
 ## Installation
 
 To install this compendium:
 
--   [Fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
-    this repository using the GitHub interface.
--   [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    your fork using `git clone fork-url` (replace `fork-url` by the URL
-    of your fork). Alternatively, open [RStudio
-    IDE](https://posit.co/products/open-source/rstudio/) and create a
-    New Project from Version Control.
+- [Fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+  this repository using the GitHub interface.
+- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+  your fork using `git clone fork-url` (replace `fork-url` by the URL of
+  your fork). Alternatively, open [RStudio
+  IDE](https://posit.co/products/open-source/rstudio/) and create a New
+  Project from Version Control.
 
 ## Usage
 
@@ -61,14 +67,16 @@ Launch the
 [`make.R`](https://github.com/frbcesab/birdlife-wp/tree/main/make.R)
 file with:
 
-    source("make.R")
+``` r
+source("make.R")
+```
 
 **Notes**
 
--   All required packages listed in the `DESCRIPTION` file will be
-    installed (if necessary)
--   All required packages and R functions will be loaded
--   Some analyses listed in the `make.R` might take time
+- All required packages listed in the `DESCRIPTION` file will be
+  installed (if necessary)
+- All required packages and R functions will be loaded
+- Some analyses listed in the `make.R` might take time
 
 ## Citation
 
