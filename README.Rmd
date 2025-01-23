@@ -14,7 +14,7 @@ knitr::opts_chunk$set(collapse  = TRUE,
 
 
 
-birdlife-wp <img src="figures/readme/compendium-sticker.png" align="right" style="float:right; height:120px;"/>
+Birds of Western Palearctic <img src="figures/readme/compendium-sticker.png" align="right" style="float:right; height:120px;"/>
 =========================================================
 
 <!-- badges: start -->
@@ -28,7 +28,8 @@ birdlife-wp <img src="figures/readme/compendium-sticker.png" align="right" style
 
 <p align="left">
   • <a href="#overview">Overview</a><br>
-  • <a href="#features">Features</a><br>
+  • <a href="#data-sources">Data sources</a><br>
+  • <a href="#workflow">Workflow</a><br>
   • <a href="#content">Content</a><br>
   • <a href="#installation">Installation</a><br>
   • <a href="#usage">Usage</a><br>
@@ -39,17 +40,27 @@ birdlife-wp <img src="figures/readme/compendium-sticker.png" align="right" style
 </p>
 
 
-
 ## Overview
 
-This research compendium... **{{ DESCRIBE YOUR PROJECT }}**
+This repository is structured as a research compendium and shares the material used to...
 
 
 
-## Features
+## Data sources
 
-The main purpose of this compendium is to... **{{ DESCRIBE THE MAIN FEATURES }}**
+This project uses the following databases:
 
+| Database                                       | Usage                                        | Reference                     | Link   |
+| :--------------------------------------------- | :------------------------------------------- | :---------------------------- | :----: |
+| WWF Terrestrial Ecoregions of the World        | Create Western Palearctic region | Olson _et al._ (2001)         | [link](https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world) |
+| Natural Earth                                  | Create Western Palearctic region | None                          | [link](https://www.naturalearthdata.com) |
+| BirdLife                                       | Get bird species distribution    | BirdLife International (2023) | [link](https://datazone.birdlife.org/species/requestdis) |
+
+
+
+## Workflow
+
+This is a work in progress...
 
 
 ## Content
@@ -103,7 +114,8 @@ source("make.R")
 
 Please use the following citation: 
 
-> **{{ ADD A CITATION }}**
+> Casajus N & Barnagaud JY (2025) Geographical characterics of birds of Western Palearctic. URL: <https://github.com/frbcesab/birdlife-wp/>.
+
 
 
 
@@ -120,10 +132,16 @@ By contributing to this project, you agree to abide by its terms.
 
 ## Acknowledgments
 
-**{{ OPTIONAL SECTION }}**
+This project has been developed for the 
+[FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/) 
+research group 
+[Acoucene](https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/acoucene/) 
+that aims to model and project the impacts of the anthropocene on soundscapes with birds as an acoustic ecological indicator.
 
 
 
 ## References
 
-**{{ OPTIONAL SECTION }}**
+BirdLife International and Handbook of the Birds of the World (2023) Bird species distribution maps of the world. Version 2023-1. Available at: <http://datazone.birdlife.org/species/requestdis>. Accessed on [22/03/2024].
+
+Olson DM, Dinerstein E, Wikramanayake ED _et al._ (2001) Terrestrial ecoregions of the World: A new map of life on Earth. **Bioscience**, 51, 933-938. DOI: [10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2](https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2).
