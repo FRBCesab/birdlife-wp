@@ -21,3 +21,5 @@ README.html
 inst/doc
 man/
 NAMESPACE
+data/BirdLife/BOTW.gdb
+data/BirdLife/birdlife_selected_species.gpkg
