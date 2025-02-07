@@ -20,12 +20,40 @@ devtools::install_deps(upgrade = "never")
 devtools::load_all(here::here())
 
 
-## Global Variables ----
+## Do not use the 's2' spherical geometry package ----
 
-# You can list global variables here (or in a separate R script)
+sf::sf_use_s2(FALSE)
 
 
 ## Run Project ----
 
-# List all R scripts in a sequential order and using the following form:
-# source(here::here("analyses", "script_X.R"))
+### Step 1: Create study area ----
+
+# source(here::here("analyses", "create-western-palearctic-polygon.R"))
+
+
+### Subset BirdLife polygons of required species ----
+
+# select_birdlife_species_polygons()
+
+
+### Create Cell x Species occurrence matrix ----
+
+# Extant & Native
+create_occurrence_matrix(presence = 1, origin = 1)
+
+# Extant & Introduced
+create_occurrence_matrix(presence = 1, origin = 3)
+
+# Extinct & Native
+create_occurrence_matrix(presence = 5, origin = 1)
+
+## Explore ----
+
+# x <- sf::st_read(here::here("outputs", 
+#                             "occ_matrix_presence_1_origin_1.gpkg"))
+
+# library(ggplot2)
+
+# ggplot(x) + 
+#   geom_sf(aes(fill = upupa_epops))
